@@ -1,7 +1,6 @@
 const db=require('../database');
 
 const products={
-
     getAll(callback){
         return db.query("SELECT * FROM products",callback);
     },
